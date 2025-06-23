@@ -1,4 +1,4 @@
-const generateKey = require("../src/actions/generateKey");
+const generateKey = require("../lib/actions/generateKey");
 
 test("Test digit generation", () => {
 	const gen = jest.fn(generateKey);
